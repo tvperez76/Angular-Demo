@@ -1,0 +1,17 @@
+<div class="card card-body">
+  <h3 class="card-title">My Data</h3>
+  <table class="table">
+    <thead>
+      <tr>
+        <th>Row #</th>
+        <th>Value</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr *ngFor="let row of apiValues;let i = index">
+        <td>{{i}}</td>
+        <td>{{row}}</td>
+      </tr>
+    </tbody>
+  </table>
+</div>
